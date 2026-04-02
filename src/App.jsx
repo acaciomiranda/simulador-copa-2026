@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 
 // --- DADOS DA FASE DE GRUPOS ---
 const initialData = [
@@ -787,6 +788,7 @@ function App() {
           </div>
         )}
       </main>
+      <Analytics />
     </div>
   );
 }
