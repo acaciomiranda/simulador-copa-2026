@@ -1,0 +1,6 @@
+@theme {
+    --color-sofa-blue: #0258B7;
+    --color-sofa-bg: #F2F2F2;
+}
+
+@import "tailwindcss";
